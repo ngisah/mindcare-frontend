@@ -1,0 +1,87 @@
+.footer {
+  background-color: #2A4B5C;
+  color: #fff;
+  padding: 4rem 2rem 2rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-section.about .logo-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 1rem;
+}
+
+.footer-section h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer-section p {
+  color: #f1f1f1;
+  line-height: 1.6;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 1rem;
+}
+
+.footer-section ul a {
+  color: #f1f1f1;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section ul a:hover {
+  color: #F8D7DA;
+}
+
+.social-icons a {
+  color: #fff;
+  margin-right: 1.5rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #4a6a7c;
+  padding-top: 2rem;
+  font-size: 0.9rem;
+}
+
+.crisis-disclaimer {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  color: #f8d7da;
+}
+
+.crisis-disclaimer a {
+  color: #fff;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+} 

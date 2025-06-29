@@ -1,0 +1,24 @@
+.community {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #2A4B5C;
+  color: #fff;
+}
+
+.community h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.community p {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  font-size: 1.1rem;
+}
+
+.community .learn-more-btn {
+  background-color: #fff;
+  color: #2A4B5C;
+  border-color: #fff;
+} 

@@ -1,0 +1,199 @@
+.landing-page {
+  font-family: 'Lato', sans-serif;
+  color: #333;
+}
+
+.announcement-bar {
+  background-color: #F8D7DA;
+  color: #721C24;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #FBF9F6;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2A4B5C;
+}
+
+.nav-links a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #2A4B5C;
+  font-weight: 500;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+}
+
+.login-btn {
+  margin-right: 1.5rem;
+  color: #2A4B5C;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.book-assessment-btn {
+  background-color: #2A4B5C;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  background-color: #FBF9F6;
+}
+
+.hero-text {
+  max-width: 50%;
+  padding-right: 2rem;
+}
+
+.hero-text h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 4rem;
+  color: #2A4B5C;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.learn-more-btn {
+  background-color: transparent;
+  color: #2A4B5C;
+  border: 1px solid #2A4B5C;
+  padding: 0.8rem 1.5rem;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.language-selector select {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.hero-image {
+  max-width: 40%;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  background-color: #2A4B5C;
+  color: #fff;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+}
+
+.feature-item .icon {
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .nav-links {
+    margin: 1rem 0;
+  }
+
+  .nav-links a {
+    margin: 0 0.5rem;
+  }
+
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .hero-text {
+    max-width: 100%;
+    padding-right: 0;
+  }
+
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-image {
+    max-width: 80%;
+    margin-bottom: 2rem;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .features {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
+} 

@@ -1,0 +1,45 @@
+.placeholder-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #FBF9F6;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  padding: 2rem;
+}
+
+.placeholder-content {
+  max-width: 600px;
+}
+
+.placeholder-content .logo-icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 2rem;
+}
+
+.placeholder-content h1 {
+  font-family: 'Playfair Display', serif;
+  color: #2A4B5C;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.placeholder-content p {
+  color: #555;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.placeholder-btn {
+  background-color: #2A4B5C;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 700;
+  text-decoration: none;
+} 

@@ -1,0 +1,37 @@
+.trust-indicators {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 2rem;
+  background-color: #FBF9F6;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.trust-item {
+  max-width: 30%;
+  text-align: center;
+}
+
+.trust-item h4 {
+  font-family: 'Playfair Display', serif;
+  color: #2A4B5C;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.trust-item p {
+  color: #555;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .trust-indicators {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .trust-item {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+} 
